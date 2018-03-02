@@ -23,6 +23,7 @@ if not exists (
 begin
  insert into กลุ่มเรียน-วิชา value (id กลุ่ม,id วิชา,ปี,เทอม)
 end
+
 ```
 ** design การกำหนดรายวิชาศึกษาทั่วไป **
 
@@ -41,6 +42,7 @@ end
 |||เวลา||
 |||ห้อง||
 |||id วิชาศึกษาทั่วไป||
+
 ```js
 genED->selectCourse(course)
 genED->addTime(time)
@@ -53,3 +55,6 @@ function selectStudyGroup(group){
     course.room = group.room
 }
 ```
+** design service รวมทั้งหมด **
+
+![alt text](./open-course.png)
