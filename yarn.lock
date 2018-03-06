@@ -10,6 +10,10 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
+"bluebird@>= 2.3.2 < 3":
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -154,6 +158,12 @@ path-is-absolute@^1.0.0:
 pathval@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
+
+rethinkdb@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/rethinkdb/-/rethinkdb-2.3.3.tgz#3dc6586e22fa1dabee0d254e64bd0e379fad2f72"
+  dependencies:
+    bluebird ">= 2.3.2 < 3"
 
 supports-color@4.4.0:
   version "4.4.0"

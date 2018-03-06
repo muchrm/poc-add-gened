@@ -1,6 +1,6 @@
 ** design การกำหนดรายวิชาสำหรับชั้นเรียน **
 
-![alt text](./manage-gened.png "Logo Title Text 1")
+![alt text](./img/manage-gened.png "Logo Title Text 1")
 
 | กลุ่มเรียน | วิชา | กลุ่มเรียน-วิชา  |
 | ------- |:---:| ------------:|
@@ -27,11 +27,11 @@ end
 ```
 ** design การกำหนดรายวิชาศึกษาทั่วไป **
 
-![alt text](./การเพิ่มวิชาGenEd.png)
+![alt text](./img/การเพิ่มวิชาGenEd.png)
 
 การเลือกวิชาศึกษาทั่วไป หากเลือกกลุ่มเรียนแล้ว ข้อมูล เวลา และห้อง จะถูกนำไปอัพเดทด้วย
 
-![alt text](./การเพิ่มวิชาGenEd2.png)
+![alt text](./img/การเพิ่มวิชาGenEd2.png)
 
 | กลุ่มเรียน | วิชา | กลุ่มเรียน-วิชา  | วิชาศึกษาทั่วไป |
 | ------- |:---:|:------------:| ---------- |
@@ -57,4 +57,4 @@ function selectStudyGroup(group){
 ```
 ** design service รวมทั้งหมด **
 
-![alt text](./open-course.png)
+![alt text](./img/open-course.png)
